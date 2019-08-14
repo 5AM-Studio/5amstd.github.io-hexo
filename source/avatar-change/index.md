@@ -53,7 +53,7 @@ photos: https://i2.wp.com/wp.laravel-news.com/wp-content/uploads/2018/03/avatar-
 
 然后在弹出来的页面中，选择你的头像的年龄级别，一般选择第一个，也就是Grated。
 
-选择正确的分类后点击"Set Rating即可"！
+选择正确的分类后点击"Set Rating"即可！
 
 如果你有多用户，他就会提示问你："Where would you like to use this image"意思就是问你你要把这个头像绑定在哪一个邮箱账户上，可以绑定多个，根据自己选择，点右下角的按键即可！
 
