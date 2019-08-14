@@ -45,7 +45,10 @@ menus:
   } }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
   赞赏: { path: /donate/, fa: fa-heart faa-pulse }
-  关于: { path: https://mp.weixin.qq.com/s/pYRPY5z04KSgm_aG8hL9Qw, fa: fa-leaf faa-wrench }
+  关于: { path: https://mp.weixin.qq.com/s/pYRPY5z04KSgm_aG8hL9Qw, fa: fa-leaf faa-wrench , submenus: {
+    我们: {path: /about/ , fa: fa fa-anchor faa-tada }
+  }}
+
   # 客户端: { path: /client/, fa: fa-android faa-vertical }
 
 
