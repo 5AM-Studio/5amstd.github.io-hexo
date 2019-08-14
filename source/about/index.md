@@ -31,7 +31,7 @@ photos: http://5amfile.yuleng.top/Top-img/About-top-img.jpg
     <bot-ui></botui>
   </div>
 </div>
-<script src="/js/chatting.js"></script>
+<script src="/js/botui.js"></script>
 <script>
 bot_ui_ini()
 </script>
