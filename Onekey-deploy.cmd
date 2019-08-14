@@ -8,6 +8,7 @@ git add *.*
 git commit -m "Updated 5 A.M. Website"
 git push
 @echo Press Any Key to Start Deploying to Github
+pause
 title 5 A.M. Studio Website Deployer - Deploying to Github Page...
 @echo Deploying to Github Page...
 hexo d -g
