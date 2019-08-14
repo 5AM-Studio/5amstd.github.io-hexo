@@ -1,4 +1,4 @@
-@echo off && title 5 A.M. Studio Website Deployer
+@echo off && title 5 A.M. Studio Website Deployer - Produced By GamerNoTitle
 @echo Press any key to start, or close the program
 pause
 REM ask users for starting
