@@ -25,7 +25,7 @@ menus:
   #   转载: {path: /categories/转载/, fa: fa-book }
   # } }
   活动: { path: javascript:;, fa: fa fa-star faa-vertical, submenus: { 
-     暂无: {path: javascript:;, fa: fa fa-star faa-bounce }, 
+     直播: {path: https://live.bilibili.com/1781204, fa: fa fa-video-camera faa-bounce }, 
   #   番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
   #   歌单: {path: /music/, fa: fa-headphones },
   #   图集: {path: /tags/图集/, fa: fa-photo }
@@ -45,8 +45,8 @@ menus:
   } }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
   赞赏: { path: /donate/, fa: fa-heart faa-pulse }
-  关于: { path: https://mp.weixin.qq.com/s/pYRPY5z04KSgm_aG8hL9Qw, fa: fa-leaf faa-wrench , submenus: {
-    我们: {path: /about/ , fa: fa fa-anchor faa-tada }
+  关于: { path: /about/ , fa: fa fa-anchor faa-tada , submenus: {
+    我们: { path: https://mp.weixin.qq.com/s/pYRPY5z04KSgm_aG8hL9Qw, fa: fa-leaf faa-wrench }
   }}
 
   # 客户端: { path: /client/, fa: fa-android faa-vertical }
