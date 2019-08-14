@@ -25,5 +25,5 @@ photos: https://www.edgehill.ac.uk/studentservices/files/2017/09/FAQ-B6.png
 
 ##### 如果你已经认真地阅读了上述内容，那么你现在就可以搜索并关注微信公众号：[5 AM Studio](https://raw.githubusercontent.com/GamerNoTitle/Picture-repo/master/Friends/5AM-Wechat.jpeg)或者在上方导航栏选择"我要点歌"进行点歌。
 
-###### 歌单将会公布在：[http://bili33.top/Songs](http://bili33.top/Songs)，在微信公众号中可以更加方便地获取哦~
+###### 歌单将会公布在：[点我进入歌单公布界面](/Songs)，在微信公众号中可以更加方便地获取哦~
 
