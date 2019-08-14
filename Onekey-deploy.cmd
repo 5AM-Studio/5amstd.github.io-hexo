@@ -1,4 +1,5 @@
 @echo off && title 5 A.M. Studio Website Deployer - Produced By GamerNoTitle
+@echo We'll use git and hexo-deployer-git, make sure they had been already setup correctly!!!
 @echo Press any key to start, or close the program
 pause
 REM ask users for starting
