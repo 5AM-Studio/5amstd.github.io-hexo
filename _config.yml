@@ -102,3 +102,12 @@ deploy:
 #   content_limit: 140
 #   content_limit_delim: ' '
 #   order_by: -date
+
+Plugins:
+- hexo-generator-baidu-sitemap
+- hexo-generator-sitemap
+
+baidusitemap:
+    path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
