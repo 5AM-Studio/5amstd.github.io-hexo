@@ -106,8 +106,7 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "那是因为……我们在运动会的那一次项目做到很晚，然后在电脑室里直接睡觉，早上5点钟起来继续肝…… "
-                onclick="window.open(' https://www.bilibili.com/video/av36624819 ')"
+                content: "那是因为……我们在运动会的那一次项目做到很晚，然后在电脑室里直接睡觉，早上5点钟起来继续肝（运动会视频见https://www.bilibili.com/video/av36624819）"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
