@@ -38,10 +38,10 @@ menus:
   #   主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
   #   Lab: {path: /lab/, fa: fa-cogs },
   # } }
-  广播站: { path: http://bili33.top/Songs-FAQ, fa: fa-rss faa-pulse , submenus: {
+  广播站: { path: /Songs-FAQ, fa: fa-rss faa-pulse , submenus: {
     点歌: {path: https://www.wenjuan.com/s/NRneA3/ , fa: fa fa-music },
-    歌单: {path: http://bili33.top/Songs , fa: fa fa-list},
-    说明: {path: http://bili33.top/Songs-FAQ , fa: fa fa-question}
+    歌单: {path: /Songs , fa: fa fa-list},
+    说明: {path: /Songs-FAQ , fa: fa fa-question}
   } }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
   赞赏: { path: /donate/, fa: fa-heart faa-pulse }
