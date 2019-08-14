@@ -1,44 +1,53 @@
 # site name
-prefixName: さくら荘その
-siteName: hojun
+prefixName: 
+siteName: 5 A.M. Studio
 # favicon and site master avatar
 favicon: /images/favicon.ico
-avatar: /img/custom/avatar.jpg
-url: https://sakura.hojun.cn
-description: Live your life with passion! With some drive!
-cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6
+avatar: https://avatars2.githubusercontent.com/u/54062596?s=200&v=4
+url: http://beta.5am.website
+description: 欢迎来到5 A.M. Studio的官网哦~
+cdn: 
 pjax: 1
 # 1开启
 mathjax: 0
 
-notice: hexo-Sakura主题已经开源，目前正在开发中...
+notice: 5 A.M. 已加入广播站点歌功能，在导航栏中选择点歌或者关注微信公众号“5 AM Studio”在菜单栏中点歌均可！
 lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
-  归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
-    技术: {path: /categories/技术/, fa: fa-code }, 
-    生活: {path: /categories/生活/, fa: fa-file-text-o }, 
-    资源: {path: /categories/资源/, fa: fa-cloud-download }, 
-    随想: {path: /categories/随想/, fa: fa-commenting-o },
-    转载: {path: /categories/转载/, fa: fa-book }
-  } }
-  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
-    书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
-    番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
-    歌单: {path: /music/, fa: fa-headphones },
-    图集: {path: /tags/图集/, fa: fa-photo }
+  归档: { path: /archives, fa: fa-archive faa-shake }
+  # 归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
+  #   技术: {path: /categories/技术/, fa: fa-code }, 
+  #   生活: {path: /categories/生活/, fa: fa-file-text-o }, 
+  #   资源: {path: /categories/资源/, fa: fa-cloud-download }, 
+  #   随想: {path: /categories/随想/, fa: fa-commenting-o },
+  #   转载: {path: /categories/转载/, fa: fa-book }
+  # } }
+  活动: { path: javascript:;, fa: fa fa-star faa-vertical, submenus: { 
+     暂无: {path: javascript:;, fa: fa fa-star faa-bounce }, 
+  #   番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
+  #   歌单: {path: /music/, fa: fa-headphones },
+  #   图集: {path: /tags/图集/, fa: fa-photo }
+   } }
+  
+  # 友人帐: { path: /links/, fa: fa-link faa-shake }
+  
+  # 关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
+  #   我？: {path: /about/, fa: fa-meetup}, 
+  #   主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
+  #   Lab: {path: /lab/, fa: fa-cogs },
+  # } }
+  广播站: { path: http://bili33.top/Songs-FAQ, fa: fa-rss faa-pulse , submenus: {
+    点歌: {path: https://www.wenjuan.com/s/NRneA3/ , fa: fa fa-music },
+    歌单: {path: http://bili33.top/Songs , fa: fa fa-list},
+    说明: {path: http://bili33.top/Songs-FAQ , fa: fa fa-question}
   } }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
-  友人帐: { path: /links/, fa: fa-link faa-shake }
   赞赏: { path: /donate/, fa: fa-heart faa-pulse }
-  关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
-    我？: {path: /about/, fa: fa-meetup}, 
-    主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
-    Lab: {path: /lab/, fa: fa-cogs },
-  } }
-  客户端: { path: /client/, fa: fa-android faa-vertical }
-  RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
+  关于: { path: https://mp.weixin.qq.com/s/pYRPY5z04KSgm_aG8hL9Qw, fa: fa-leaf faa-wrench }
+  # 客户端: { path: /client/, fa: fa-android faa-vertical }
+
 
 
 # Home page sort type: -1: newer first，1: older first.
@@ -47,58 +56,67 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(1).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(2).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(3).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(4).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(5).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(6).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(7).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(8).jpg.webp
+  - http://5amfile.yuleng.top/Top-img/bg1.jpg
+  - http://5amfile.yuleng.top/Top-img/bg2.jpg
+  - http://5amfile.yuleng.top/Top-img/bg3.jpg
+  #- http://5amfile.yuleng.top/Top-img/bg4.jpg
+  - http://5amfile.yuleng.top/Top-img/bg5.jpg
+  #- http://5amfile.yuleng.top/Top-img/bg6.jpg
+  #- http://5amfile.yuleng.top/Top-img/bg7.jpg
+  #- https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(8).jpg.webp
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot
 
 # startdash url, title, desc img
 startdash: 
-  - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
-  - {url: http://space.bilibili.com/271849279, title: Bilibili, desc: 博主的b站视频, img: /img/startdash/bilibili.jpg}
-  - {url: /, title: hojun的万事屋, desc: 技术服务, img: /img/startdash/wangshiwu.jpg}
+  - {url: https://mp.weixin.qq.com/s/pYRPY5z04KSgm_aG8hL9Qw, title: 嘿，我们是5 A.M. 工作室, desc: 了解我们更多哦❤~, img: http://5amfile.yuleng.top/Top-img/bg5.jpg}
+  - {url: http://space.bilibili.com/388224428, title: 我们的bilibili~, desc: 最新的视频就在这里！, img: http://5amfile.yuleng.top/startdash/bilibili-16.9.jpg}
+  - {url: https://raw.githubusercontent.com/GamerNoTitle/Picture-repo/master/Friends/5AM-Wechat.jpeg, title: 关注我们的微信公众号, desc: 欢迎关注5 A.M. Studio的微信公众号, img: https://www.pioneerbeyond.com/wp-content/uploads/2018/09/The-Ultimate-Guide-to-WeChat-teach-english-in-china.jpg}
 
 
 
 # your site build time or founded date
-siteBuildingTime: 07/17/2018
+siteBuildingTime: 08/13/2019 #MM/DD/YYYY
 
 #social  url, img PC端配置
 social:
-  github: {url: http://github.com/honjun, img: /img/social/github.png}
-  sina: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/sina.png}
-  wangyiyun: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/wangyiyun.png}
-  zhihu: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/zhihu.png}
-  email: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/email.svg}
-  wechat: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
+  github: {url: https://github.com/5amstd, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/github.png}
+  #sina: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/sina.png}
+  #wangyiyun: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/wangyiyun.png}
+  #zhihu: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/zhihu.png}
+  email: {url: mailto:server@5amstd.club, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/email.svg}
+  wechat: {url: /#, qrcode: https://raw.githubusercontent.com/GamerNoTitle/Picture-repo/master/Friends/5AM-Wechat.jpeg, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wechat.png}
+  bilibili: {url: http://space.bilibili.com/388224428, img: http://5amfile.yuleng.top/icon/bilibili-alpha.png}
 
 #social  url, img 移动端配置
 msocial:
-  github: {url: http://github.com/honjun, fa: fa-github, color: 333}
-  weibo: {url: http://weibo.com/mashirozx?is_all=1, fa: fa-weibo, color: dd4b39}
-  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=954655431&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
+  github: {url: https://github.com/5amstd, fa: fa-github, color: 333}
+  #weibo: {url: http://weibo.com/mashirozx?is_all=1, fa: fa-weibo, color: dd4b39}
+  #qq: {url: https://wpa.qq.com/msgrd?v=3&uin=954655431&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
+  email: {url: mailto:server@5amstd.club, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/email.svg}
+  wechat: {url: /#, qrcode: https://raw.githubusercontent.com/GamerNoTitle/Picture-repo/master/Friends/5AM-Wechat.jpeg, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wechat.png}
+  bilibili: {url: http://space.bilibili.com/388224428, img: http://5amfile.yuleng.top/icon/bilibili-alpha.png}
 
 donate:
-  paypal: https://www.paypal.me/hojuncn
-  alipay: /img/custom/donate/AliPayQR.jpg
-  wechat: /img/custom/donate/WeChanQR.jpg
-  wechatSQ: /img/custom/donate/WeChanSQ.jpg
+  paypal: https://www.paypal.me/GamerNoTitle
+  alipay: https://raw.githubusercontent.com/GamerNoTitle/Picture-repo/master/Donate/AliPay.jpg
+  wechat: https://raw.githubusercontent.com/GamerNoTitle/Picture-repo/master/Donate/WeChatPay.png
+  wechatSQ: https://raw.githubusercontent.com/GamerNoTitle/Picture-repo/master/Donate/WeChatPay.png
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
-  url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2
+  url: 
+    - http://upos-hz-mirrorakam.akamaized.net/upgcxcode/66/96/69449666/69449666-1-208.mp4?e=ig8euxZM2rNcNbRV7WuBhwdlhWdB7zUVhoNvNC8BqJIzNbfqXBvEuENvNC8aNEVEtEvE9IMvXBvE2ENvNCImNEVEIj0Y2J_aug859r1qXg8gNEVE5XREto8z5JZC2X2gkX5L5F1eTX1jkXlsTXHeux_f2o859IB_&ua=tvproj&deadline=1565760934&dynamic=1&gen=playurl&oi=1732814277&os=akam&platform=tvproj&rate=1057500&trid=2e21901aa0c04f9781fc7f8c10d54d10&uipk=5&uipv=5&um_deadline=1565760934&um_sign=12028c4fec6170ed2c5867e1f5badd5c&upsig=7f6bb8a15017f89623b826630ca88e05&uparams=e,ua,deadline,dynamic,gen,oi,os,platform,rate,trid,uipk,uipv,um_deadline,um_sign&hdnts=exp=1565760934~hmac=c5dddabbae0d18291989fdac0900f5f082cb1e24402d6fd1511334ed89247999&mid=0
+    - http://upos-hz-mirrorakam.akamaized.net/upgcxcode/47/07/92330747/92330747-1-208.mp4?e=ig8euxZM2rNcNbeH7WdVhoMHnWUVhwdEto8g5X10ugNcXBlqNCNEto8g5gNvNE3DN0B5tZlqNxTEto8BTrNvN05fqx6S5ahE9IMvXBvEuENvNCImNEVEua6m2jIxux0CkF6s2JZv5x0DQJZY2F8SkXKE9IB5QK==&ua=tvproj&deadline=1565760376&dynamic=1&gen=playurl&oi=1732814277&os=akam&platform=tvproj&rate=995000&trid=2a26bdf6385e460e8ec4205ff5ff31fb&uipk=5&uipv=5&um_deadline=1565760376&um_sign=54945c137dffb5ab8c2ea45ce4d3625c&upsig=54dbb9717a27decf3e0fac46e2bf9547&uparams=e,ua,deadline,dynamic,gen,oi,os,platform,rate,trid,uipk,uipv,um_deadline,um_sign&hdnts=exp=1565760376~hmac=09d6188734c3384d557d89a09d388031ff9d8dabd0ddd25e550e18dde4af1615&mid=0
+    - http://upos-hz-mirrorakam.akamaized.net/upgcxcode/36/89/92328936/92328936-1-208.mp4?e=ig8euxZM2rNcNbRVhWNBhwdlhWd1hbUVhoNvNC8BqJIzNbfqXBvEuENvNC8aNEVEtEvE9IMvXBvE2ENvNCImNEVEIj0Y2J_aug859r1qXg8gNEVE5XREto8z5JZC2X2gkX5L5F1eTX1jkXlsTXHeux_f2o859IB_&ua=tvproj&deadline=1565760505&dynamic=1&gen=playurl&oi=1732814277&os=akam&platform=tvproj&rate=1012500&trid=0674748b29644b8c92fa011c54679a76&uipk=5&uipv=5&um_deadline=1565760505&um_sign=2fb6baa8fb9223941a0ce48ecce9c8e0&upsig=73b399b6ff7de36a6cd7e5db59c506df&uparams=e,ua,deadline,dynamic,gen,oi,os,platform,rate,trid,uipk,uipv,um_deadline,um_sign&hdnts=exp=1565760505~hmac=f50da6c5d590fb5423b6404f6b4dc4292a3f720f40ee1d7831739b46b158d0a5&mid=0
+    - http://upos-hz-mirrorakam.akamaized.net/upgcxcode/21/30/92333021/92333021-1-208.mp4?e=ig8euxZM2rNcNbRVhWuBhwdlhWd17zUVhoNvNC8BqJIzNbfqXBvEuENvNC8aNEVEtEvE9IMvXBvE2ENvNCImNEVEIj0Y2J_aug859r1qXg8gNEVE5XREto8z5JZC2X2gkX5L5F1eTX1jkXlsTXHeux_f2o859IB_&ua=tvproj&deadline=1565760910&dynamic=1&gen=playurl&oi=1732814277&os=akam&platform=tvproj&rate=1017500&trid=5a34c65f1a1842aaaa58a826ac752b68&uipk=5&uipv=5&um_deadline=1565760910&um_sign=32f03c816020e4187a148e5f4c4b2ab5&upsig=22ec770d3fdf56743d0ab23fa7efc14f&uparams=e,ua,deadline,dynamic,gen,oi,os,platform,rate,trid,uipk,uipv,um_deadline,um_sign&hdnts=exp=1565760910~hmac=d7df3154c3853b1a05408390204e64333474bcb9664b7a40af724dba098b7851&mid=0
+    - http://upos-hz-mirrorakam.akamaized.net/upgcxcode/96/35/64313596/64313596-1-208.mp4?e=ig8euxZM2rNcNbRV7WUVhwdlhWdB7WdVhoNvNC8BqJIzNbfqXBvEuENvNC8aNEVEtEvE9IMvXBvE2ENvNCImNEVEIj0Y2J_aug859r1qXg8gNEVE5XREto8z5JZC2X2gkX5L5F1eTX1jkXlsTXHeux_f2o859IB_&ua=tvproj&deadline=1565760949&dynamic=1&gen=playurl&oi=1732814277&os=akam&platform=tvproj&rate=1055000&trid=e676ee1a247641c4b37721c1fcf0fcb9&uipk=5&uipv=5&um_deadline=1565760949&um_sign=af8cede0175315a8ddd4a7b9e9c0cd82&upsig=8ac9cdc280c829e9a4881289678d0090&uparams=e,ua,deadline,dynamic,gen,oi,os,platform,rate,trid,uipk,uipv,um_deadline,um_sign&hdnts=exp=1565760949~hmac=ee877a6d8c8d88f51f3b74e85beb00ebbb62d8673c75ed8f69cfc167e22c5961&mid=0
   # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
-  name: Unbroken.mp4
+  # name: 
 
 aplayer: 
-  id: 2660651585
+  id: 2292691328
   server: netease
   type: playlist
   fixed: true
@@ -111,6 +129,6 @@ aplayer:
 
 # Valine
 valine: true
-v_appId: GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz
-v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
+v_appId: 0yT7XHg6F8uBOjuXEIvxS92a-MdYXbMMI
+v_appKey: ubKqJD6pDw8tPhXunO7qR7wm
 
