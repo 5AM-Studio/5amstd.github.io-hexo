@@ -60,3 +60,5 @@ photos: https://i2.wp.com/wp.laravel-news.com/wp-content/uploads/2018/03/avatar-
 
 
 ##### 这样，你的评论就拥有了头像，还不快去试试？？？
+
+###### 你可以在本页面下面的评论系统测试你的头像，头像并不是设置完成就会立即更新，可能会要等待一段时间！
