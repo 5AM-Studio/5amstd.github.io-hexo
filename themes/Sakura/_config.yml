@@ -94,12 +94,12 @@ social:
 
 #social  url, img 移动端配置
 msocial:
-  github: {url: https://github.com/5amstd, fa: fa-github, color: 333}
+  #github: {url: https://github.com/5amstd, fa: fa-github, color: 333}
   #weibo: {url: http://weibo.com/mashirozx?is_all=1, fa: fa-weibo, color: dd4b39}
   #qq: {url: https://wpa.qq.com/msgrd?v=3&uin=954655431&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
-  email: {url: mailto:server@5amstd.club, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/email.svg}
-  wechat: {url: /#, qrcode: https://raw.githubusercontent.com/GamerNoTitle/Picture-repo/master/Friends/5AM-Wechat.jpeg, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wechat.png}
-  bilibili: {url: http://space.bilibili.com/388224428, img: http://5amfile.yuleng.top/icon/bilibili-alpha.png}
+  #email: {url: mailto:server@5amstd.club, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/email.svg}
+  #wechat: {url: /#, qrcode: https://raw.githubusercontent.com/GamerNoTitle/Picture-repo/master/Friends/5AM-Wechat.jpeg, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wechat.png}
+  #bilibili: {url: http://space.bilibili.com/388224428, img: http://5amfile.yuleng.top/icon/bilibili-alpha.png}
 
 donate:
   paypal: https://www.paypal.me/GamerNoTitle
