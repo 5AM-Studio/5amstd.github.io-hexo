@@ -1,6 +1,10 @@
 ---
-title: 歌单公布：常见问题
+title: 广州市玉岩中学 歌单公布：常见问题
 date: 2019-08-14 00:00:00
+keywords: 广州市玉岩中学 歌单公布：常见问题
+comment: false
+description: 
+photo: https://www.edgehill.ac.uk/studentservices/files/2017/09/FAQ-B6.png
 ---
 
 ![FAQ](https://www.curemelanoma.org/assets/Uploads/_resampled/ResizedImageWzIwMCwyMDBd/MRA-FAQ.png)
