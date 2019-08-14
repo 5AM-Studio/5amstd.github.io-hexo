@@ -13,5 +13,9 @@ author: 5 A.M. Studio - Official
 
 ##### 你的头像由你的邮箱决定，如果觉得默认头像太丑，你可以到[https://cn.gravatar.com/](https://cn.gravatar.com/)更换你的头像:)
 
+##### [更换头像教程请点我](/avatar-change)！！！
+
 ###### 留言请不要越过法律的界限，谢谢配合哦XD！Thanks♪(･ω･)ﾉ
+
+
 
