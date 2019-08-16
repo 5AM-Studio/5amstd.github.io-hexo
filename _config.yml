@@ -103,6 +103,7 @@ deploy:
 #   content_limit_delim: ' '
 #   order_by: -date
 
+# sitemap
 Plugins:
 - hexo-generator-baidu-sitemap
 - hexo-generator-sitemap
@@ -111,3 +112,8 @@ baidusitemap:
     path: baidusitemap.xml
 sitemap:
     path: sitemap.xml
+
+# Security
+##
+encrypt:
+    enable: true
