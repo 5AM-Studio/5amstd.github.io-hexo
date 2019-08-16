@@ -12,9 +12,6 @@ tags: Project
 keywords: 2019学年新生军训拍摄计划
 description: 2019学年新生军训拍摄计划
 photos: http://www.gzyyzx.cn/uploadfiles/2019/05/th_20190531105209111.jpg?Mi5KUEc=
-password: 0815-5AMnb666
-abstract: 2019学年新生军训拍摄计划，输入正确的密码来访问！
-message: 2019学年新生军训拍摄计划，输入正确的密码来访问！
 sage: true
 ---
 
