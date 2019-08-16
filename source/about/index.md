@@ -20,7 +20,7 @@ photos: http://5amfile.yuleng.top/Top-img/About-top-img.jpg
     Gamer.bili&nbsp;<rp>
     （</rp>
     <rt>
-    （本对话框来自Mashirozx）</rt>
+    （本对话框来自Mashirozx，若未弹出消息请刷新网页！）</rt>
     <rp>
     ）</rp>
     </ruby>
